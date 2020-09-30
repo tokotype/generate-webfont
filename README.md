@@ -34,7 +34,7 @@ To convert all files in the current directory to WOFF:
 
 ```
 for i in *; \
-do sfnt2woff-zopfli.exe "$i"; \
+do sfnt2woff-zopfli "$i"; \
 done
 ```
 
@@ -59,7 +59,7 @@ To convert all files in the current directory to WOFF2:
 
 ```
 for i in *; \
-do woff2_compress.exe "$i"; \
+do woff2_compress "$i"; \
 done
 ```
 Decompress
